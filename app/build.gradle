@@ -54,6 +54,7 @@ android {
 
     lintOptions {
         disable "MissingTranslation"
+	abortOnError false
     }
 
     dataBinding {
